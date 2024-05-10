@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andi Nailah Mashfufah Sulfa, Nim 105841116623</title>
+    <style>
+        .checkbox-container {
+            display: flex;
+            flex-direction: row;
+        }
+        .checkbox-container label {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>MODUL FORMULIR DALAM HTML</h1>
+
+    <table>
+        <tr>
+            <td>Nama Mahasiswa</td>
+            <td>:</td>
+            <td><input type="text" /></td>
+        </tr>
+        <tr>
+            <td>Tempat/Tanggal Lahir</td>
+            <td>:</td>
+            <td>
+                <input type="text" />
+                <label for="tanggal"></label><input type="date" id="tanggal" name="tanggal" min="yyyy-dd-mm" max="yyyy-dd-mm"> 
+            </td>
+        </tr>
+        <tr>
+            <td>No Telp/Hp</td>
+            <td>:</td>
+            <td><input type="text" /></td>
+        </tr>
+        <tr>
+            <td>Hobi</td>
+            <td>:</td>
+            <td>
+                <div class="checkbox-container">
+                    <label>
+                        <input type="checkbox" name="hobi" value="membaca"> Membaca
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobi" value="menulis"> Menulis
+                    </label>
+                    <label>
+                        <input type="checkbox" name="hobi" value="olaraga"> Olahraga
+                    </label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Pas Foto</td>
+            <td>:</td>
+            <td><input type="file" accept="image/*" name="pas_foto"></td>
+        </tr>
+
+        <h1>Formulir Pengguna</h1>
+
+    <form action="file:///C:/Users/ASUS2024/Documents/Nyonya%20Park/berita/berita.html" method="POST">
+        
+        <tr>
+            <td colspan="3"><input type="submit" value="Submit"></td>
+        </tr>
+        
+        
+    </table>
+
+</body>
+</html>
